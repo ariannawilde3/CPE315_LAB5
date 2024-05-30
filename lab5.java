@@ -248,7 +248,7 @@ public class lab5 {
     
     public static void printFinalStatistics() {
         double cpi = (double) totalCycles / totalInstructions;
-        System.out.printf("Program complete\nCPI = %.3f\tCycles = %d\tInstructions = %d\n", cpi, totalCycles, totalInstructions);
+        //System.out.printf("Program complete\nCPI = %.3f\tCycles = %d\tInstructions = %d\n", cpi, totalCycles, totalInstructions);
     }
     
     static public void processPipelineInstruction(Instruction nextInstruction, Boolean inSquash) {
