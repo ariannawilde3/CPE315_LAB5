@@ -19,7 +19,7 @@ public class lab5 {
     public static Boolean wasNoneJumpSquash = false;
 
     public static int GLOBAL_HISTORY_SIZE = 2;
-    public static int[] predictions = new int[GLOBAL_HISTORY_SIZE * GLOBAL_HISTORY_SIZE];
+    public static int[] predictions = new int[(int) Math.pow(2, GLOBAL_HISTORY_SIZE)];
     public static int[] globalHistoryRegister = new int[GLOBAL_HISTORY_SIZE];
 	public static int numPreds;
     public static int correctPreds;
