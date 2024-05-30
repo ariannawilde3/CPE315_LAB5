@@ -38,7 +38,7 @@ public class lab5 {
 
             if (args.length > 2) {
                 GLOBAL_HISTORY_SIZE = Integer.parseInt(args[2]);  // Open the script file as an input stream
-                predictions = new int[GLOBAL_HISTORY_SIZE * GLOBAL_HISTORY_SIZE];
+                predictions = new int[(int) Math.pow(2, GLOBAL_HISTORY_SIZE)];
                 globalHistoryRegister = new int[GLOBAL_HISTORY_SIZE];
             }
             
